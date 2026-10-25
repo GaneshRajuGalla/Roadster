@@ -1,0 +1,73 @@
+name: Roadster
+options:
+  bundleIdPrefix: com.ganeshrajugalla
+  deploymentTarget:
+    iOS: "26.0"
+  xcodeVersion: "27.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    TARGETED_DEVICE_FAMILY: "1,2"
+    INFOPLIST_KEY_UILaunchScreen_Generation: YES
+    INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone: UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown
+    INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad: UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown
+    INFOPLIST_KEY_CFBundleDisplayName: Roadster
+    INFOPLIST_KEY_LSRequiresIPhoneOS: YES
+    INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.games
+    INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents: YES
+    INFOPLIST_KEY_ITSAppUsesNonExemptEncryption: NO
+    GENERATE_INFOPLIST_FILE: YES
+    ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+    CURRENT_PROJECT_VERSION: 1
+    MARKETING_VERSION: "1.0.0"
+targets:
+  Roadster:
+    type: application
+    platform: iOS
+    sources:
+      - NeonRoadster
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.ganeshrajugalla.Roadster
+        DEVELOPMENT_TEAM: ""
+        CODE_SIGN_STYLE: Automatic
+    info:
+      path: NeonRoadster/Info.plist
+      properties:
+        UILaunchScreen: {}
+        UIUserInterfaceStyle: Dark
+        UIStatusBarHidden: true
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+          - UIInterfaceOrientationPortraitUpsideDown
+        UISupportedInterfaceOrientations~ipad:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+          - UIInterfaceOrientationPortraitUpsideDown
+  RoadsterUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - RoadsterUITests
+    dependencies:
+      - target: Roadster
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.ganeshrajugalla.RoadsterUITests
+        TEST_TARGET_NAME: Roadster
+schemes:
+  Roadster:
+    build:
+      targets:
+        Roadster: all
+        RoadsterUITests: [test]
+    run:
+      config: Debug
+    test:
+      config: Debug
+      targets:
+        - RoadsterUITests

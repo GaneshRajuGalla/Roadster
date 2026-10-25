@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		062C559FD678911ADFADFEFE /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034255A9AFD03D070B478AD4 /* MenuView.swift */; };
+		105F18646CF123D3791B502E /* AudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF69D5A61E7FCFE028F5543 /* AudioEngine.swift */; };
+		1E37964204A47A6CDF6C94C6 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6177C5248A8E695F39DC291 /* Random.swift */; };
+		2006B64F3034C06513773DF0 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = D05F311610E1688B308DBAE1 /* PrivacyInfo.xcprivacy */; };
+		2369F53472ED9BA0B4341156 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA08BA0450F8A3731C214182 /* Assets.xcassets */; };
+		2B94F445C5A8FFF55698EFD1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766282C702ED498DAEA9F4BF /* ContentView.swift */; };
+		32434EBF85DB31B5CD49DAEC /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD1ADAF3A1C5F2D90437911 /* ResultsView.swift */; };
+		372A12D6B8D806FC047249CB /* RoadsterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B5BA538F8472C4617B8D0A /* RoadsterApp.swift */; };
+		627E5D8B4EFFD5DE2BA0E959 /* MeshBatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECEDAB0B36F06F3E00CD2EA /* MeshBatch.swift */; };
+		7E2E61E86CDC1993ED3CEA74 /* FlightPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A9338C5A158C72816558D /* FlightPath.swift */; };
+		8F37ADCCF8059EC2646ECA5D /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CB679AB5574C9E81239930 /* GameView.swift */; };
+		AD099785FC8F8769D85F3800 /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD16017F73388AA9AF3FD0F9 /* Haptics.swift */; };
+		AEE919126B788187653D6883 /* TextureFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A30577EE284D0F9FF712C0 /* TextureFactory.swift */; };
+		C7B04EA506989B6CC438AFAE /* TouchControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7CE2016733D0FDDF6E8C51 /* TouchControlsView.swift */; };
+		CD325DBBF79218775A4C14A1 /* GameSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5F18D6CA1F55A1BF4DB013 /* GameSession.swift */; };
+		DE1BD816E45F5BA1689E3849 /* HUDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4F00ADD874CDA1EE25F0C4 /* HUDView.swift */; };
+		DF787118AE3C64C62DFCC602 /* RoadsterEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9598E27976CDB3145ACE55A7 /* RoadsterEntity.swift */; };
+		E41ABECFA6C8CE4206F9275D /* RoadsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAD379C6B90CD9293FD0862 /* RoadsterUITests.swift */; };
+		E4A94A0AEF4B3E6D4A83AF6E /* CityBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4919F5EC558BB63844ED5C13 /* CityBuilder.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B4997891FFFFFA506F193563 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 020348DF370EA5373899CE8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08F2A2DC9D42471937556752;
+			remoteInfo = Roadster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		034255A9AFD03D070B478AD4 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		143744A8AB510E05B5A4FC31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		20788E43180B472328416D98 /* Roadster.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Roadster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4919F5EC558BB63844ED5C13 /* CityBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityBuilder.swift; sourceTree = "<group>"; };
+		5A9A9338C5A158C72816558D /* FlightPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightPath.swift; sourceTree = "<group>"; };
+		5BF69D5A61E7FCFE028F5543 /* AudioEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioEngine.swift; sourceTree = "<group>"; };
+		5C4F00ADD874CDA1EE25F0C4 /* HUDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUDView.swift; sourceTree = "<group>"; };
+		6DAD379C6B90CD9293FD0862 /* RoadsterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadsterUITests.swift; sourceTree = "<group>"; };
+		6DD1ADAF3A1C5F2D90437911 /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
+		766282C702ED498DAEA9F4BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		80B5BA538F8472C4617B8D0A /* RoadsterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadsterApp.swift; sourceTree = "<group>"; };
+		8ECEDAB0B36F06F3E00CD2EA /* MeshBatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshBatch.swift; sourceTree = "<group>"; };
+		92DF0A30622023A38263E159 /* RoadsterUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = RoadsterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9598E27976CDB3145ACE55A7 /* RoadsterEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadsterEntity.swift; sourceTree = "<group>"; };
+		A7CB679AB5574C9E81239930 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		AA08BA0450F8A3731C214182 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD7CE2016733D0FDDF6E8C51 /* TouchControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchControlsView.swift; sourceTree = "<group>"; };
+		C6177C5248A8E695F39DC291 /* Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
+		D05F311610E1688B308DBAE1 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		DB5F18D6CA1F55A1BF4DB013 /* GameSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSession.swift; sourceTree = "<group>"; };
+		DD16017F73388AA9AF3FD0F9 /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
+		F9A30577EE284D0F9FF712C0 /* TextureFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextureFactory.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		24E24704822256ED63CC385F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20788E43180B472328416D98 /* Roadster.app */,
+				92DF0A30622023A38263E159 /* RoadsterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3197A4ED98F01A73AF34BF49 /* RoadsterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6DAD379C6B90CD9293FD0862 /* RoadsterUITests.swift */,
+			);
+			path = RoadsterUITests;
+			sourceTree = "<group>";
+		};
+		571E9176D789273AF4D46EE4 /* NeonRoadster */ = {
+			isa = PBXGroup;
+			children = (
+				AA08BA0450F8A3731C214182 /* Assets.xcassets */,
+				766282C702ED498DAEA9F4BF /* ContentView.swift */,
+				143744A8AB510E05B5A4FC31 /* Info.plist */,
+				D05F311610E1688B308DBAE1 /* PrivacyInfo.xcprivacy */,
+				80B5BA538F8472C4617B8D0A /* RoadsterApp.swift */,
+				9F5392F6722596CE443F236A /* Game */,
+			);
+			path = NeonRoadster;
+			sourceTree = "<group>";
+		};
+		87B143623AEE016CD6770AFE = {
+			isa = PBXGroup;
+			children = (
+				571E9176D789273AF4D46EE4 /* NeonRoadster */,
+				3197A4ED98F01A73AF34BF49 /* RoadsterUITests */,
+				24E24704822256ED63CC385F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F5392F6722596CE443F236A /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				5BF69D5A61E7FCFE028F5543 /* AudioEngine.swift */,
+				4919F5EC558BB63844ED5C13 /* CityBuilder.swift */,
+				5A9A9338C5A158C72816558D /* FlightPath.swift */,
+				DB5F18D6CA1F55A1BF4DB013 /* GameSession.swift */,
+				A7CB679AB5574C9E81239930 /* GameView.swift */,
+				DD16017F73388AA9AF3FD0F9 /* Haptics.swift */,
+				5C4F00ADD874CDA1EE25F0C4 /* HUDView.swift */,
+				034255A9AFD03D070B478AD4 /* MenuView.swift */,
+				8ECEDAB0B36F06F3E00CD2EA /* MeshBatch.swift */,
+				C6177C5248A8E695F39DC291 /* Random.swift */,
+				6DD1ADAF3A1C5F2D90437911 /* ResultsView.swift */,
+				9598E27976CDB3145ACE55A7 /* RoadsterEntity.swift */,
+				F9A30577EE284D0F9FF712C0 /* TextureFactory.swift */,
+				AD7CE2016733D0FDDF6E8C51 /* TouchControlsView.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08F2A2DC9D42471937556752 /* Roadster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB70FF47F7CC09A5B964A691 /* Build configuration list for PBXNativeTarget "Roadster" */;
+			buildPhases = (
+				AF63C8A6D397E9C60AB35906 /* Sources */,
+				E1B851E1AE487F6817A33EC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Roadster;
+			packageProductDependencies = (
+			);
+			productName = Roadster;
+			productReference = 20788E43180B472328416D98 /* Roadster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0C169956993748E17239AA0E /* RoadsterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9375D89286D6557E64C82020 /* Build configuration list for PBXNativeTarget "RoadsterUITests" */;
+			buildPhases = (
+				8BE5F28D325354E32C43974F /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D06FE7C51EF080586DE12565 /* PBXTargetDependency */,
+			);
+			name = RoadsterUITests;
+			packageProductDependencies = (
+			);
+			productName = RoadsterUITests;
+			productReference = 92DF0A30622023A38263E159 /* RoadsterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		020348DF370EA5373899CE8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					08F2A2DC9D42471937556752 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					0C169956993748E17239AA0E = {
+						TestTargetID = 08F2A2DC9D42471937556752;
+					};
+				};
+			};
+			buildConfigurationList = 7AEE71324B722EB674AA96B5 /* Build configuration list for PBXProject "Roadster" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 87B143623AEE016CD6770AFE;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 24E24704822256ED63CC385F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08F2A2DC9D42471937556752 /* Roadster */,
+				0C169956993748E17239AA0E /* RoadsterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1B851E1AE487F6817A33EC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2369F53472ED9BA0B4341156 /* Assets.xcassets in Resources */,
+				2006B64F3034C06513773DF0 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BE5F28D325354E32C43974F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E41ABECFA6C8CE4206F9275D /* RoadsterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF63C8A6D397E9C60AB35906 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				105F18646CF123D3791B502E /* AudioEngine.swift in Sources */,
+				E4A94A0AEF4B3E6D4A83AF6E /* CityBuilder.swift in Sources */,
+				2B94F445C5A8FFF55698EFD1 /* ContentView.swift in Sources */,
+				7E2E61E86CDC1993ED3CEA74 /* FlightPath.swift in Sources */,
+				CD325DBBF79218775A4C14A1 /* GameSession.swift in Sources */,
+				8F37ADCCF8059EC2646ECA5D /* GameView.swift in Sources */,
+				DE1BD816E45F5BA1689E3849 /* HUDView.swift in Sources */,
+				AD099785FC8F8769D85F3800 /* Haptics.swift in Sources */,
+				062C559FD678911ADFADFEFE /* MenuView.swift in Sources */,
+				627E5D8B4EFFD5DE2BA0E959 /* MeshBatch.swift in Sources */,
+				1E37964204A47A6CDF6C94C6 /* Random.swift in Sources */,
+				32434EBF85DB31B5CD49DAEC /* ResultsView.swift in Sources */,
+				372A12D6B8D806FC047249CB /* RoadsterApp.swift in Sources */,
+				DF787118AE3C64C62DFCC602 /* RoadsterEntity.swift in Sources */,
+				AEE919126B788187653D6883 /* TextureFactory.swift in Sources */,
+				C7B04EA506989B6CC438AFAE /* TouchControlsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D06FE7C51EF080586DE12565 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08F2A2DC9D42471937556752 /* Roadster */;
+			targetProxy = B4997891FFFFFA506F193563 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		35B088E1576E391FEEC5C430 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ganeshrajugalla.RoadsterUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Roadster;
+			};
+			name = Release;
+		};
+		4F252B7436731AB05EDCD6D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = NeonRoadster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ganeshrajugalla.Roadster;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B95B11939D4041177C50541F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = NeonRoadster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ganeshrajugalla.Roadster;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE247062E7AA64BE03809B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Roadster;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_LSRequiresIPhoneOS = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DFFF30882B2F276A4913C321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ganeshrajugalla.RoadsterUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Roadster;
+			};
+			name = Debug;
+		};
+		EF3B3E04E5C9EBB1A019542A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Roadster;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_LSRequiresIPhoneOS = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7AEE71324B722EB674AA96B5 /* Build configuration list for PBXProject "Roadster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF3B3E04E5C9EBB1A019542A /* Debug */,
+				CE247062E7AA64BE03809B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9375D89286D6557E64C82020 /* Build configuration list for PBXNativeTarget "RoadsterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFFF30882B2F276A4913C321 /* Debug */,
+				35B088E1576E391FEEC5C430 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EB70FF47F7CC09A5B964A691 /* Build configuration list for PBXNativeTarget "Roadster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F252B7436731AB05EDCD6D8 /* Debug */,
+				B95B11939D4041177C50541F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 020348DF370EA5373899CE8F /* Project object */;
+}
